@@ -53,6 +53,7 @@ public class TTSUtils implements InitListener, SynthesizerListener {
 
             // 设置发音人--发音人选择--具体见values-string
             mTts.setParameter(SpeechConstant.VOICE_NAME, "xiaoqi");
+
             // 设置发音语速
             mTts.setParameter(SpeechConstant.SPEED, "50");
             // 设置音调
